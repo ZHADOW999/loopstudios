@@ -440,7 +440,7 @@ display: block;
 .line3 {
     padding-top: 50px;
     position: relative;
-    width: 90%;
+    width: 80%;
 }
 .h3{
     font-family: sans;
@@ -458,29 +458,31 @@ display: block;
    
 }
 .creation{
-    padding-top: 20px;
+    padding-top: 50px;
+    width: 90%;
 }
 .cre{
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
    
 }
 .row{
-    padding-left: 35px;
+    /* padding-left: 35px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1px;
-    padding-bottom: 1px;
+    gap: 10px;
+    padding: 5px;
 
 }
 .t{
     font-size: 100%;
 }
 .pic{
-  width: 90%;
-  height: 90%;
+  width: 250px;
+  height: 300px;
 }
+
 
 .footer{
     height: 100%;
@@ -524,7 +526,7 @@ font-size: 0.35cm;
 }
  }
  
-@media (max-width:620px) and (min-width: 420px){
+@media (max-width:620px) and (min-width: 430px){
     body{ padding: 0;
     margin: 0;}
     .header-text-1{
@@ -609,46 +611,51 @@ font-size: 0.35cm;
 
 .line3 {
     padding-top: 50px;
-    position: relative;
+    /* position: relative; */
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .h3{
     font-family: sans;
     font-size: 110%;
-    position: absolute;
-    left: 0%;
+    /* position: absolute;
+    left: 0%; */
 }
 
 .but{
-    position: absolute;
-    right: 1%;
+
+
     font-size: 50%;
-    width: 85px;
-    height: 30px;
+    width: 70px;
+    height: 20px;
    
 }
 .creation{
-    padding-top: 20px;
+    padding-top: 5px;
+    width: 90%;
 }
 .cre{
-    width: 80%;
-    height: 80%;
+    width:100%;
+    height: 100%;
    
 }
 .row{
-    padding-left: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1px;
-    padding-bottom: 1px;
+    gap:10px;
+    padding-bottom: 0px;
+    padding: 5px;
 
 }
 .t{
-    font-size: 90%;
+    font-size: 75%;
 }
 .pic{
-  width: 70%;
-  height: 70%;
+  width: 350px;
+  height: 200px;
 }
 
 .footer{
@@ -700,7 +707,7 @@ font-size: 0.3cm;
 
 
 
-@media (max-width: 420px){
+@media (max-width: 430px){
     .header-text-1{
         font-size: 40%;
 
@@ -779,9 +786,9 @@ overflow: hidden;
       }
 
     .header-text-2{
-        font-size: 120%;
+        font-size: 150%;
         width: 70%;
-        height: 10%;
+        height: 9%;
         position: absolute;
         inset: 0;
         top: 30%;
