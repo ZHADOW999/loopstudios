@@ -106,9 +106,10 @@ nav a {
 .banner2{
      background-color: white;
       position: relative;
-/*       padding-left: 130px; */
+      /* padding-left: 130px; */
       margin: 0% auto;
-      width:80%;
+      width: 80%;
+     
       
 
 }
@@ -125,7 +126,8 @@ nav a {
     font-size: 270%;
     position: absolute;
     bottom: 25%;
-    padding-bottom: 30px
+    padding-bottom: 35px;
+   
 }
 .text {
 font-size: 95%;
@@ -197,7 +199,7 @@ position: absolute;
     background-color: white;
     font-weight: 900;
     font-size: 70%;
-    width: 120px;
+    width: 130px;
     height: 35px;
     border: 1px solid ;
     text-align: center;
@@ -353,8 +355,16 @@ font-size: 0.4cm;
         font-size: 250%;
     }
    .banner-text-2 {
-    font-size: 250%;
+    font-size: 230%;
     padding-bottom: 50px;
+   }
+   .img2{
+    position: relative;
+   }
+   .text2{
+    width: 40%;
+    position: absolute;
+    left: 55%;
    }
 }
 
@@ -587,8 +597,7 @@ font-size: 0.35cm;
 }
 .banner-text-2{
     font-size: 110%;
-    margin-bottom: 20px;
-
+   padding-bottom: 10px;
 }
 
 .banner-card{
@@ -597,6 +606,7 @@ font-size: 0.35cm;
 
 .text{
     font-size: 45%;
+    padding-top: 0;
 }
 .text2{
    
@@ -606,23 +616,23 @@ font-size: 0.35cm;
     padding-left: 20px;
     padding-right: 35px;
     width: 30%;
-    height: 35%;
-   padding-top: 40px;
+    height: 50%;
 }
 
 .line3 {
     padding-top: 50px;
     /* position: relative; */
-    width: 90%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-left:0 ;
+    padding-left: 0;
 }
 .h3{
     font-family: sans;
     font-size: 110%;
-    /* position: absolute;
-    left: 0%; */
+    
 }
 
 .but{
