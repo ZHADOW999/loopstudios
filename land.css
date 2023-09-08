@@ -106,9 +106,9 @@ nav a {
 .banner2{
      background-color: white;
       position: relative;
-      padding-left: 130px;
+/*       padding-left: 130px; */
       margin: 0% auto;
-     
+      width:80%;
       
 
 }
@@ -122,10 +122,10 @@ nav a {
 
 .banner-text-2{
     font-family: sans2;
-    font-size: 300%;
+    font-size: 270%;
     position: absolute;
     bottom: 25%;
-   
+    padding-bottom: 30px
 }
 .text {
 font-size: 95%;
