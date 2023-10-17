@@ -368,6 +368,39 @@ font-size: 0.4cm;
    }
 }
 
+@media ( max-width:1440px  ) and (min-width:1281px)  {
+    .creation{
+        width: 100%;
+        padding: 0;
+    }
+
+    .pic{
+        width: 270px;
+        height: 470px;
+    }
+
+    .banner2 {
+        background-color: white;
+        position: relative;
+        /* padding-left: 130px; */
+        margin: 0 200px;
+        width: 70%;
+    }
+
+    .header-text-2{
+        width: 40%;
+        height: 25%;
+    }
+
+    nav a{
+        font-size: 18px;
+    }
+
+    .heade-text-1{
+        font-size: 35px;
+    }
+}
+
  @media ( max-width:950px  ) and (min-width :620px)  {
 .header-text-1{
     font-size: 50%;
